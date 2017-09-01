@@ -24,7 +24,6 @@ public class LintCode_4 {
         }
         return nums[n-1];
     }
-
     public static void main(String[] args) {
         System.out.println(new LintCode_4().nthUglyNumber(10000));
     }
