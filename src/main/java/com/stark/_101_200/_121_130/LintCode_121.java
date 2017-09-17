@@ -20,6 +20,9 @@ public class LintCode_121 {
         List<String> list = new ArrayList<>();
         list.add(start);
         lists.add(list);
+        if(start.equals(end)){
+            return lists;
+        }
         if (match(start, end)) {
             list.add(end);
             return lists;
