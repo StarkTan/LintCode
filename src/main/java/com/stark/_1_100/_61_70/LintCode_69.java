@@ -40,11 +40,5 @@ public class LintCode_69 {
         }
         return res;
     }
-    //DFS
-    public List<List<Integer>> levelOrder_V2(TreeNode root) {
-        // write your code here
-        List<List<Integer>> res = new ArrayList<>();
 
-        return res;
-    }
 }
