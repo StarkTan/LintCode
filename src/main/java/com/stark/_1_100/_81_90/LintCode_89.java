@@ -1,11 +1,4 @@
 package com.stark._1_100._81_90;
-
-import com.stark.entity.Interval;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * Created by Stark on 2017/10/10.
  * 给定n个不同的正整数，整数k（k < = n）以及一个目标数字。
@@ -21,7 +14,6 @@ public class LintCode_89 {
             if(A[i]<=target)
                 for(int j=i+1;j<=len;++j)
                     dp[j][1][A[i]] = 1;
-
         for(int i=1;i<=len;++i)
             for(int j=2;j<=k&&j<=i;++j)
                 for(int s=1;s<=target;++s)
