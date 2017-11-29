@@ -6,7 +6,7 @@ package com.stark._701_800._721_730;
  * 使S1中的和跟S2中的和的绝对值最小。
  * 如果有一个一个整数数组 S 有 n 个数，如果Subset1有 m 个数，
  * Subset2必须有 n-m 个数并且 abs(sum(Subset1) – sum(Subset2)) 应该最小
- * TODO 网页解题出问题，答案不对，下次提交
+ * TODO 内存溢出
  */
 public class LintCode_724 {
     public int findMin(int[] arr) {
@@ -36,7 +36,7 @@ public class LintCode_724 {
 
     public static void main(String[] args) {
         LintCode_724 test = new LintCode_724();
-        int min = test.findMin(new int[]{616,202,595,876,388,120,238,296});
+        int min = test.findMin(new int[]{2,21});
         System.out.println(min);
     }
 }
