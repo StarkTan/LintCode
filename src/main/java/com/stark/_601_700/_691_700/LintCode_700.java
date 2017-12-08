@@ -3,7 +3,6 @@ package com.stark._601_700._691_700;
 /**
  * Created by Stark on 2017/12/1.
  * 给一个 n 英寸长的杆子和一个包含所有小于等于 n 的尺寸的价格. 确定通过切割杆并销售碎片可获得的最大值.
- * TODO 未提交
  */
 public class LintCode_700 {
 
