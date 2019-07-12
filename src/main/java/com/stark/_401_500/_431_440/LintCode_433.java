@@ -4,7 +4,6 @@ import java.util.Stack;
 
 /**
  * Created by Stark on 2017/11/2.
- * TODO
  */
 public class LintCode_433 {
     public int numIslands(boolean[][] grid) {
